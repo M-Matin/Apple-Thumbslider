@@ -31,3 +31,15 @@ p {
   padding-top: 10px;
   text-align: center;
 }
+
+#slider {
+  box-shadow: 0 0 3px #aaaaaa;
+  -moz-box-shadow: 0 0 3px #aaaaaa;
+  -webkit-box-shadow: 0 0 3px #aaaaaa;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background: url(../img/panel.jpg) repeat-x bottom center #ffffff;
+  width: 900px;
+  overflow: hidden;
+}
