@@ -43,3 +43,10 @@ p {
   width: 900px;
   overflow: hidden;
 }
+
+.head {
+  background: url(../img/panel.jpg) repeat-x bottom center #ffffff;
+  height: 30px;
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
