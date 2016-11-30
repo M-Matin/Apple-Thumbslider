@@ -79,3 +79,11 @@ p {
   height: 45px;
   overflow: hidden;
 }
+
+li.active, li.active:hover {
+  background: url(../img/active_bg.png) no-repeat;
+}
+
+li.active {
+  cursor: default;
+}
