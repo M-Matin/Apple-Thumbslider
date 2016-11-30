@@ -14,5 +14,20 @@ body {
   margin: 15px auto;
   text-align: center;
   width: 900px;
+  position: relative;
+}
 
+a, a:visited {
+  color: #0196e3;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  padding-top: 10px;
+  text-align: center;
 }
