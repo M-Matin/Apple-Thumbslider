@@ -57,3 +57,16 @@ p {
   overflow: hidden;
   padding-top: 20px;
 }
+
+.slide {
+  float: left;
+}
+
+#menu {
+  height: 45px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
