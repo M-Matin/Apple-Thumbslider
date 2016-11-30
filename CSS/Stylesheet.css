@@ -80,10 +80,21 @@ p {
   overflow: hidden;
 }
 
-li.active, li.active:hover {
+#menu li.active, #menu li.active:hover {
   background: url(../img/active_bg.png) no-repeat;
 }
 
-li.active {
+#menu li.active {
   cursor: default;
+}
+
+#menu .sep {
+  width: 2px;
+  background: url (../img/seperator.png)no-repeat right;
+  margin-right: -2px;
+}
+
+#menu li a {
+  display: block;
+  background: url (..img/sep.png)no-repeat right;
 }
