@@ -66,7 +66,16 @@ p {
   height: 45px;
 }
 
-ul {
+#menu ul {
   margin: 0;
   padding: 0;
+}
+
+#menu li {
+  width: 60px;
+  margin-left: -4px;
+  display: inline-block;
+  list-style: none;
+  height: 45px;
+  overflow: hidden;
 }
