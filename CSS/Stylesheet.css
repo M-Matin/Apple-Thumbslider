@@ -44,7 +44,7 @@ p {
   overflow: hidden;
 }
 
-.head {
+header {
   background: url(../img/panel.jpg) repeat-x bottom center #ffffff;
   height: 30px;
   padding-top: 10px;
@@ -90,11 +90,17 @@ p {
 
 #menu .sep {
   width: 2px;
-  background: url (../img/seperator.png)no-repeat right;
+  background: url(../img/seperator.png) no-repeat right;
   margin-right: -2px;
 }
 
 #menu li a {
   display: block;
-  background: url (..img/sep.png)no-repeat right;
+  background: url(..img/seperator.png) no-repeat right;
+  height: 35px;
+  padding-top: 10px;
+}
+
+#menu a img {
+  border: none;
 }
