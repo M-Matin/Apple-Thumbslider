@@ -50,3 +50,10 @@ p {
   padding-top: 10px;
   border-bottom: 1px solid #ccc;
 }
+
+#slides {
+  height: 240px;
+  width:900px;
+  overflow: hidden;
+  padding-top: 20px;
+}
