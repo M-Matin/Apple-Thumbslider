@@ -5,17 +5,25 @@ $(document).ready(function(){
 
   //make a loop through slides using each
   $('#slides .slide').each(function(i){
-
+    //get slider width
     positions[i] = totalWidth;
     totalWidth += (this).width();
-//check each slide has width
+
+    //check each slide has width
     if(!$(this).width()){
       alert("please add width to your mages");
       return false;
     }
   });
-  $('#slides').width(totalWidth);
-  $('#menu ul li a').click(function(e, keepScroll){
 
+  //set width
+  $('#slides').width(totalWidth);
+
+  //menu item click handler
+  $('#menu ul li a').click(function(e, keepScroll){
+      //remove active class and add inactive
+      ('li.product').removeClass('active').addClass('inactive');
+      //add active class to parents
+      $(this).parents().addClass('active');
     });
 });
