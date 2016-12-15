@@ -14,5 +14,8 @@ $(document).ready(function(){
       return false;
     }
   });
+  $('#slides').width(totalWidth);
+  $('#menu ul li a').click(function(e, keepScroll){
 
+    });
 });
