@@ -25,5 +25,9 @@ $(document).ready(function(){
       ('li.product').removeClass('active').addClass('inactive');
       //add active class to parents
       $(this).parents().addClass('active');
+
+      $(this).parent().prevAll('.product').lenght;
+
+      $('.slides').stop().animate(margin-left:-positions[pos]+ "px", 450);
     });
 });
