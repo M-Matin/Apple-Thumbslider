@@ -5,8 +5,14 @@ $(document).ready(function(){
 
   //make a loop through slides using each
   $('#slides .slide').each(function(i){
-  
 
+    positions[i] = totalWidth;
+    totalWidth += (this).width();
+//check each slide has width
+    if(!$(this).width()){
+      alert("please add width to your mages");
+      return false;
+    }
   });
 
 });
