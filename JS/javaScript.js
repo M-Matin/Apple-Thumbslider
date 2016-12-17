@@ -29,5 +29,8 @@ $(document).ready(function(){
       $(this).parent().prevAll('.product').lenght;
 
       $('.slides').stop().animate(margin-left:-positions[pos]+ "px", 450);
+
+      //prevent the default action
+      e.preventDefault();
     });
 });
